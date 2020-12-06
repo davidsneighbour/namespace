@@ -1,8 +1,8 @@
 # DNB Hugo Reserved Namespaces
 
-A collection of DNB configuration parameters. This repository will have no value to anything other than people who add features to dnb-hugo projects. Hugo overrides data files from different projects that reside in the same named folder, so this list keeps an eye on them. 
+A collection of DNB configuration parameters. _**This repository will have no value to anyone other than people who add features to dnb-hugo projects that require configuration parameters via data directory.**_ Hugo overrides data files from different projects that reside in the same named folder, so this list keeps an eye on them and ensures singularity. 
 
-Project settings: `data/dnb/NAMESPACENAME/configuration.toml` is expected, additional files might occur if the project documents their names. Everything below `data/dnb/NAMESPACE/` has to reside in the same module and data mount.
+Project settings: `data/dnb/NAMESPACENAME/config.toml` is expected, additional files might occur if the project documents their names. Everything below `data/dnb/NAMESPACE/` has to reside in the same module and data mount.
 
 Configurations are then accessible via `site.Data.dnb.NAMESPACENAME.configuration`.
 
