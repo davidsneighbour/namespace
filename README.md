@@ -1,12 +1,12 @@
-# DNB Hugo Reserved Namespaces
+## DNB Hugo Reserved Namespaces
 
-A collection of DNB configuration parameters. _**This repository will have no value to anyone other than people who add features to dnb-hugo projects that require configuration parameters via data directory.**_ Hugo overrides data files from different projects that reside in the same named folder, so this list keeps an eye on them and ensures singularity. 
+A collection of DNB configuration parameters. *This repository will have no value to anyone other than people who add features to dnb-hugo projects that require configuration parameters via data directory.* Hugo overrides data files from different projects that reside in the same named folder, so this list keeps an eye on them and ensures singularity. 
 
 Project settings: `data/dnb/NAMESPACENAME/config.toml` is expected, additional files might occur if the project documents their names. Everything below `data/dnb/NAMESPACE/` has to reside in the same module and data mount.
 
 Configurations are then accessible via `site.Data.dnb.NAMESPACENAME.config`.
 
-## Used Namespaces
+### Used Namespaces
 
 | Repository | Namespace | Notes | Datafile | Used |
 |:--- |:--- |:--- |:--- |:--- |
@@ -22,7 +22,7 @@ Configurations are then accessible via `site.Data.dnb.NAMESPACENAME.config`.
 | [components/sitemap](https://github.com/dnb-hugo/components/tree/main/sitemap) | sitemap | DNB Sitemap | `dnb/sitemap/config.toml` | :x: |
 | | | | | |
 | [shortcodes](https://github.com/dnb-hugo/shortcodes) | shortcodes | DNB Shortcodes | `dnb/shortcodes/config.toml` | :x: |
-| [shortcodes/youtube]() | shortcodes-youtube | youtube shortcode | `dnb/shortcodes-youtube/config.toml` | :x: |
+| [shortcodes/youtube](https://github.com/dnb-hugo/shortcodes/tree/main/sitemap) | shortcodes-youtube | youtube shortcode | `dnb/shortcodes-youtube/config.toml` | :x: |
 
 ### Note
 
