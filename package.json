@@ -12,14 +12,5 @@
   "homepage": "https://github.com/dnb-hugo/namespace#readme",
   "devDependencies": {
     "remark-preset-lint-dnb": "github:dnb-hugo/remark-preset-lint-dnb"
-  },
-  "remarkConfig": {
-    "plugins": [
-      "remark-preset-lint-dnb",
-      [
-        "remark-lint-write-good",
-        false
-      ]
-    ]
   }
 }
