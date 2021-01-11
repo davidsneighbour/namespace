@@ -1,4 +1,4 @@
-# Why do we ignore package-lock.json in .gitignore
+## Why do we ignore package-lock.json in .gitignore
 
 Merging automatic pull requests for updates of packages made life sometimes hard for the developers because if Dependabot added multiple PRs and one got merged then all following PRs had to be always rebased instead of more or less being able to be merged immediately. With the amount of packages used (yeah, we know) that made the time investment huge.
 
