@@ -14,7 +14,7 @@
 
 ### Verbosity
 
-default: 5 (int)
+Default: 5 (int)
 
 Set `verbosity` to a value from 1 to 9 to limit or extend the amount of information that is debugged.
 

@@ -22,7 +22,7 @@ Configurations are then accessible via `site.Data.dnb.NAMESPACENAME.config`.
 | [components/sitemap](https://github.com/dnb-hugo/components/tree/main/sitemap) | sitemap | DNB Sitemap | `dnb/sitemap/config.toml` | :x: |
 | | | | | |
 | [shortcodes](https://github.com/dnb-hugo/shortcodes) | shortcodes | DNB Shortcodes | `dnb/shortcodes/config.toml` | :x: |
-| [shortcodes/youtube](https://github.com/dnb-hugo/shortcodes/tree/main/sitemap) | shortcodes-youtube | youtube shortcode | `dnb/shortcodes-youtube/config.toml` | :x: |
+| [shortcodes/youtube](https://github.com/dnb-hugo/shortcodes/tree/main/sitemap) | shortcodes-youtube | YouTube shortcode | `dnb/shortcodes-youtube/config.toml` | :x: |
 
 ### Note
 

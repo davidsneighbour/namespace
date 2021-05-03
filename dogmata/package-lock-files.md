@@ -4,7 +4,7 @@ Merging automatic pull requests for updates of packages made life sometimes hard
 
 So now the following applies:
 
-- dependencies and devDependencies in package.json are required with STATIC version numbers (no ^, no ~)
-- package-lock.json is ignored
+- Dependencies and devDependencies in package.json are required with STATIC version numbers (no ^, no ~)
+- Package-lock.json is ignored
 
 This leads to very specific version requirements in package.json that are verified to work across the usage area. It also leads to less time used up merging PRs for dependency updates. 
