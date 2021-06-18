@@ -19,7 +19,7 @@ Default: 5 (int)
 Set `verbosity` to a value from 1 to 9 to limit or extend the amount of information that is debugged.
 
 | Verb. | String | Notes |
-|: --- :|: --- :| --- |
+| :---: | :---: | --- |
 | 1 | fatal | just show the essentials (missing configuration, wrong application, etc.) |
 | 2 | - | more than fatal and less than error |
 | 3 | error | errors that might lead to cancellation of the script (`hugo` or `hugo server`) |
