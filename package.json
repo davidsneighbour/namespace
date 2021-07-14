@@ -1,21 +1,21 @@
 {
-  "name": "@dnb-hugo/namespace",
-  "description": "Some details about dnb-hugo elements.",
+  "name": "@dnb-org/namespace",
+  "description": "Some details about dnb-org elements.",
   "version": "1.0.3",
   "bugs": {
-    "url": "https://github.com/dnb-hugo/namespace/issues"
+    "url": "https://github.com/dnb-org/namespace/issues"
   },
   "devDependencies": {
-    "@dnb-hugo/remark-config": "2.0.6",
-    "@dnb-hugo/standard-version-config": "2.0.5",
-    "@dnb-hugo/textlint-config": "2.0.5"
+    "@dnb-org/remark-config": "2.0.6",
+    "@dnb-org/standard-version-config": "2.0.5",
+    "@dnb-org/textlint-config": "2.0.5"
   },
-  "homepage": "https://github.com/dnb-hugo/namespace#readme",
+  "homepage": "https://github.com/dnb-org/namespace#readme",
   "license": "MIT",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dnb-hugo/namespace.git"
+    "url": "git+https://github.com/dnb-org/namespace.git"
   },
   "scripts": {
     "release": "standard-version --release-as patch -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/release-hook-postrelease.sh",
