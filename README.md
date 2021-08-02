@@ -1,4 +1,4 @@
-## DNB Hugo Reserved Namespaces
+cd.name## DNB Hugo Reserved Namespaces
 
 A collection of DNB configuration parameters. *This repository will have no value to anyone other than people who add features to dnb-org projects that require configuration parameters via data directory.* Hugo overrides data files from different projects that reside in the same named folder, so this list keeps an eye on them and ensures singularity. 
 
