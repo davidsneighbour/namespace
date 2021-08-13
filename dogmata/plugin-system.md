@@ -1,3 +1,3 @@
 ## DNB Hugo Plugin System
 
-... TBD ...
+To be written.

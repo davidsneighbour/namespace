@@ -2,15 +2,15 @@
 
 ### Principles
 
-... TBD ...
+To be written.
 
 ### Debugging Partial
 
-... TBD ...
+To be written.
 
 ### Configuration
 
-... TBD ...
+To be written.
 
 ### Verbosity
 

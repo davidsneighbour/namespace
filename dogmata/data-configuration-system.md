@@ -1,3 +1,3 @@
 ## DNB Hugo Data Configuration System
 
-... TBD ...
+To be written.
