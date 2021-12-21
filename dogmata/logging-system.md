@@ -1,18 +1,18 @@
-## Logging System
+# Logging System
 
-### Principles
-
-To be written.
-
-### Debugging Partial
+## Principles
 
 To be written.
 
-### Configuration
+## Debugging Partial
 
 To be written.
 
-### Verbosity
+## Configuration
+
+To be written.
+
+## Verbosity
 
 Default: 5 (int)
 

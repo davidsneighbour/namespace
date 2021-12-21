@@ -1,3 +1,3 @@
-## DNB Hugo Plugin System
+# DNB Hugo Plugin System
 
 To be written.

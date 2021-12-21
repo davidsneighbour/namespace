@@ -1,3 +1,3 @@
-## DNB Hugo Data Configuration System
+# DNB Hugo Data Configuration System
 
 To be written.
