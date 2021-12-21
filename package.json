@@ -1,7 +1,7 @@
 {
   "name": "@dnb-org/namespace",
   "description": "Some details about dnb-org elements.",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "bugs": {
     "url": "https://github.com/dnb-org/namespace/issues"
   },
