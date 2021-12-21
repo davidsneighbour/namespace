@@ -26,5 +26,8 @@
     "remark": "remark .",
     "textlint": "textlint .",
     "textlint:fix": "textlint --fix ."
+  },
+  "dependencies": {
+    "trim": "^0.0.1"
   }
 }
