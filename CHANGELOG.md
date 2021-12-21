@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.9](https://github.com/dnb-org/namespace/compare/v1.0.7...v1.0.9) (2021-12-21)
+
+
+### Bug Fixes
+
+* update markdown due to linting ([33dc5d5](https://github.com/dnb-org/namespace/commit/33dc5d59c0f63584e94a0b704ba2fd9b02be7749))
+
+
+### Chore
+
+* **deps:** fix trim package security issue ([b0f908a](https://github.com/dnb-org/namespace/commit/b0f908a8945d624192d798672ebdd7f07ebe08e4))
+
 ### [1.0.8](https://github.com/dnb-org/namespace/compare/v1.0.7...v1.0.8) (2021-12-21)
 
 ### [1.0.7](https://github.com/dnb-org/namespace/compare/v1.0.5...v1.0.7) (2021-12-21)
