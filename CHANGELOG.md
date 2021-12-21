@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.6](https://github.com/dnb-org/namespace/compare/v1.0.5...v1.0.6) (2021-12-21)
+
+
+### Chore
+
+* **deps:** fix trim package security issue ([0ab7275](https://github.com/dnb-org/namespace/commit/0ab7275334343a98e9b092fd2d2e9951ec96a704))
+
 ### [1.0.5](https://github.com/dnb-org/namespace/compare/v1.0.4...v1.0.5) (2021-12-21)
 
 
