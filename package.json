@@ -6,11 +6,11 @@
     "url": "https://github.com/davidsneighbour/namespace/issues"
   },
   "devDependencies": {
-    "@davidsneighbour/commitlint-config": "^3.4.4",
-    "@davidsneighbour/remark-config": "^3.4.4",
-    "@davidsneighbour/standard-version-config": "^3.4.3",
-    "@davidsneighbour/textlint-config": "^3.4.5",
-    "@davidsneighbour/tools": "^3.4.5"
+    "@davidsneighbour/commitlint-config": "^5.5.5",
+    "@davidsneighbour/remark-config": "^5.5.5",
+    "@davidsneighbour/standard-version-config": "^5.5.5",
+    "@davidsneighbour/textlint-config": "^5.5.5",
+    "@davidsneighbour/tools": "^5.5.5"
   },
   "homepage": "https://github.com/davidsneighbour/namespace#readme",
   "license": "MIT",
@@ -20,9 +20,10 @@
     "url": "git+https://github.com/davidsneighbour/namespace.git"
   },
   "scripts": {
-    "release": "standard-version --release-as patch -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/release-hook-postrelease.sh",
-    "release-major": "standard-version --release-as major -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/release-hook-postrelease.sh",
-    "release-next": "standard-version --release-as minor -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/release-hook-postrelease.sh",
+    "release": "./bin/repo/maintenance/dependencies && npm run release:patch",
+    "release:major": "commit-and-tag-version --release-as major --sign -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/repo/hooks/postrelease",
+    "release:minor": "commit-and-tag-version --release-as minor --sign -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/repo/hooks/postrelease",
+    "release:patch": "commit-and-tag-version --release-as patch --sign -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/repo/hooks/postrelease",
     "remark": "remark .",
     "textlint": "textlint .",
     "textlint:fix": "textlint --fix ."
