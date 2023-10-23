@@ -1,5 +1,8 @@
 const defaultStandardVersion = require('@davidsneighbour/standard-version-config');
 const localStandardVersion = {
+  scripts: {
+    prerelease: "./bin/repo/hooks/prerelease",
+  },
   skip: {
     changelog: true
   }
