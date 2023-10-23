@@ -10,7 +10,7 @@
     "@davidsneighbour/remark-config": "^3.4.4",
     "@davidsneighbour/standard-version-config": "^3.4.3",
     "@davidsneighbour/textlint-config": "^3.4.5",
-    "@davidsneighbour/tools": "^3.4.5"
+    "@davidsneighbour/tools": "^5.5.5"
   },
   "homepage": "https://github.com/davidsneighbour/namespace#readme",
   "license": "MIT",
