@@ -1,4 +1,4 @@
-# Logging System
+# DNB Hugo Logging System
 
 ## Principles
 
