@@ -1,1 +1,56 @@
-#!/usr/bin/env bash
+#!/bin/bash
+
+# exit when any command fails
+set -e
+
+REQUIRED_TOOLS=(
+  git
+)
+
+for TOOL in "${REQUIRED_TOOLS[@]}"; do
+  if ! command -v "${TOOL}" >/dev/null; then
+    echo "${TOOL} is required... "
+    exit 1
+  fi
+done
+
+RE='[^0-9]*\([0-9]*\)[.]\([0-9]*\)[.]\([0-9]*\)\([0-9A-Za-z-]*\)'
+
+step="$1"
+if [ -z "$1" ]; then
+  step="patch"
+fi
+
+base=$(node -pe 'require("./package.json")["version"]')
+
+MAJOR=$(echo $base | sed -e "s#$RE#\1#")
+MINOR=$(echo $base | sed -e "s#$RE#\2#")
+PATCH=$(echo $base | sed -e "s#$RE#\3#")
+
+case "$step" in
+major)
+  ((MAJOR += 1))
+  ((MINOR = 0))
+  ((PATCH = 0))
+  ;;
+minor)
+  ((MINOR += 1))
+  ((PATCH = 0))
+  ;;
+patch)
+  ((PATCH += 1))
+  ;;
+esac
+
+RELEASE="$MAJOR.$MINOR.$PATCH"
+
+# update version in citation configuration
+FILE=CITATION.cff
+if test -f "$FILE"; then
+  sed -i "s/^version: .*/version: ${RELEASE}/" $FILE
+  DATE=$(date +%F)
+  sed -i "s/date-released: .*/date-released: ${DATE}/" $FILE
+  git add $FILE
+fi
+
+git add CITATION.cff
