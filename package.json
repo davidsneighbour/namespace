@@ -8,7 +8,7 @@
   "devDependencies": {
     "@davidsneighbour/commitlint-config": "^3.4.4",
     "@davidsneighbour/remark-config": "^3.4.4",
-    "@davidsneighbour/standard-version-config": "^3.4.3",
+    "@davidsneighbour/standard-version-config": "^5.5.5",
     "@davidsneighbour/textlint-config": "^3.4.5",
     "@davidsneighbour/tools": "^3.4.5"
   },
