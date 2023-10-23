@@ -1,0 +1,13 @@
+# general links
+
+/             https://github.com/davidsneighbour/hugo-modules/
+/log          https://github.com/davidsneighbour/namespace/blob/main/hugo/logging-system.md
+
+# hugo modules
+
+/hooks        https://github.com/davidsneighbour/hugo-modules/tree/main/modules/hooks#readme
+/opensearch   https://github.com/davidsneighbour/hugo-modules/tree/main/modules/opensearch#readme
+
+# issues
+
+/issue-225    https://github.com/davidsneighbour/hugo-modules/issues/225

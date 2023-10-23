@@ -1,23 +1,23 @@
 {
-  "name": "@dnb-org/namespace",
+  "name": "@davidsneighbour/namespace",
   "description": "Some details about dnb-org elements.",
   "version": "1.0.9",
   "bugs": {
-    "url": "https://github.com/dnb-org/namespace/issues"
+    "url": "https://github.com/davidsneighbour/namespace/issues"
   },
   "devDependencies": {
-    "@dnb-org/commitlint-config": "^3.4.4",
-    "@dnb-org/remark-config": "^3.4.4",
-    "@dnb-org/standard-version-config": "^3.4.3",
-    "@dnb-org/textlint-config": "^3.4.5",
-    "@dnb-org/tools": "^3.4.5"
+    "@davidsneighbour/commitlint-config": "^3.4.4",
+    "@davidsneighbour/remark-config": "^3.4.4",
+    "@davidsneighbour/standard-version-config": "^3.4.3",
+    "@davidsneighbour/textlint-config": "^3.4.5",
+    "@davidsneighbour/tools": "^3.4.5"
   },
-  "homepage": "https://github.com/dnb-org/namespace#readme",
+  "homepage": "https://github.com/davidsneighbour/namespace#readme",
   "license": "MIT",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dnb-org/namespace.git"
+    "url": "git+https://github.com/davidsneighbour/namespace.git"
   },
   "scripts": {
     "release": "standard-version --release-as patch -a -t \"v\" --releaseCommitMessageFormat \"chore(release): v{{currentTag}}\" && ./bin/release-hook-postrelease.sh",
@@ -26,8 +26,5 @@
     "remark": "remark .",
     "textlint": "textlint .",
     "textlint:fix": "textlint --fix ."
-  },
-  "dependencies": {
-    "trim": ">=0.0.3"
   }
 }
