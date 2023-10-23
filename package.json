@@ -6,7 +6,7 @@
     "url": "https://github.com/davidsneighbour/namespace/issues"
   },
   "devDependencies": {
-    "@davidsneighbour/commitlint-config": "^3.4.4",
+    "@davidsneighbour/commitlint-config": "^5.5.5",
     "@davidsneighbour/remark-config": "^3.4.4",
     "@davidsneighbour/standard-version-config": "^3.4.3",
     "@davidsneighbour/textlint-config": "^3.4.5",
