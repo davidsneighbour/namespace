@@ -9,7 +9,7 @@
     "@davidsneighbour/commitlint-config": "^5.5.5",
     "@davidsneighbour/remark-config": "^5.5.5",
     "@davidsneighbour/standard-version-config": "^5.5.5",
-    "@davidsneighbour/textlint-config": "^5.5.5",
+    "@davidsneighbour/textlint-config": "^5.5.19",
     "@davidsneighbour/tools": "^5.5.5"
   },
   "homepage": "https://github.com/davidsneighbour/namespace#readme",
