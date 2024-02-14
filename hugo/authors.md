@@ -3,6 +3,7 @@
 The author is the person who wrote the content. The `author` object is used to define the author of the content. The `authors` object is used to define more than one single author connected to the content. `authors` overrides `author` if both are defined.
 
 ```yaml
+---
 author:
   name: Patrick Kollitsch
   homepage: https://kollitsch.dev/
@@ -15,6 +16,7 @@ authors:
   - name: Another Author
     homepage: https://example.com/
     image: /images/another-aythor.jpg
+---
 ```
 
 ### Accessing the frontmatter
@@ -23,7 +25,7 @@ The old implementation of `author` and `authors` in GoHugo was deprecated in [0.
 
 This leads to the following setup in the frontmatter of a content file:
 
-```go-html-template
+```gotemplate
 {{ with .Params.authors }}
   {{ range . }}
     {{ .name }}
