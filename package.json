@@ -27,5 +27,8 @@
     "remark": "remark .",
     "textlint": "textlint .",
     "textlint:fix": "textlint --fix ."
+  },
+  "dependencies": {
+    "@davidsneighbour/markdownlint-config": "^5.8.20"
   }
 }
