@@ -25,7 +25,7 @@ The old implementation of `author` and `authors` in GoHugo was deprecated in [0.
 
 This leads to the following setup in the frontmatter of a content file:
 
-```gotemplate
+```go
 {{ with .Params.authors }}
   {{ range . }}
     {{ .name }}
