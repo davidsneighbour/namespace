@@ -6,11 +6,11 @@
     "url": "https://github.com/davidsneighbour/namespace/issues"
   },
   "devDependencies": {
-    "@davidsneighbour/commitlint-config": "^5.8.11",
-    "@davidsneighbour/remark-config": "^5.8.11",
-    "@davidsneighbour/standard-version-config": "^5.8.11",
-    "@davidsneighbour/textlint-config": "^5.8.11",
-    "@davidsneighbour/tools": "^5.8.11"
+    "@davidsneighbour/commitlint-config": "^5.9.0",
+    "@davidsneighbour/remark-config": "^5.9.0",
+    "@davidsneighbour/standard-version-config": "^5.9.0",
+    "@davidsneighbour/textlint-config": "^5.9.0",
+    "@davidsneighbour/tools": "^5.9.0"
   },
   "homepage": "https://github.com/davidsneighbour/namespace#readme",
   "license": "MIT",
@@ -29,6 +29,6 @@
     "textlint:fix": "textlint --fix ."
   },
   "dependencies": {
-    "@davidsneighbour/markdownlint-config": "^5.8.20"
+    "@davidsneighbour/markdownlint-config": "^5.9.0"
   }
 }
