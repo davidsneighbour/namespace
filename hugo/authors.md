@@ -45,8 +45,40 @@ These values are also available in `page.Params.authors` and `page.Params.author
 
 ### Available fields
 
-This is a recommendation and not a standard. The fields named here are implemented in all DNB modules/themes/sites, so code samples are consistent.
+This is a recommendation and not a standard. The fields named here are available in all David's Neighbour's modules/themes/sites, so code samples are consistent.
 
 * `name` (required, string): The name of the author.
-* `homepage` (optional, string): The URL to the author's homepage.
+* `homepage` (optional, string): The URL of the author's homepage.
 * `image` (optional, string): The path to the author's image. The image should be in the `static` folder.
+
+### Schema
+
+```yaml
+title: authors setup
+
+properties:
+  authors:
+    type: array
+    items:
+      type: object
+      required:
+        - name
+      properties:
+        name:
+          type: string
+        homepage:
+          type: string
+        image:
+          type: string
+  author:
+    type: object
+    required:
+      - name
+    properties:
+      name:
+        type: string
+      homepage:
+        type: string
+      image:
+        type: string
+```
