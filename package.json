@@ -29,6 +29,6 @@
     "textlint:fix": "textlint --fix ."
   },
   "dependencies": {
-    "@davidsneighbour/markdownlint-config": "^5.9.0"
+    "@davidsneighbour/markdownlint-config": "^5.11.0"
   }
 }
