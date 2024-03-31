@@ -1,3 +1,7 @@
+---
+title: Authors
+---
+
 ## Authors
 
 The author is the person who wrote the content. The `author` object is used to define the author of the content. The `authors` object is used to define more than one single author connected to the content. `authors` overrides `author` if both are defined.
