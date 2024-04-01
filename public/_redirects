@@ -5,8 +5,35 @@
 
 # hugo modules
 
-/hooks        https://github.com/davidsneighbour/hugo-modules/tree/main/modules/hooks#readme
-/opensearch   https://github.com/davidsneighbour/hugo-modules/tree/main/modules/opensearch#readme
+/aesop          https://github.com/davidsneighbour/hugo-modules/tree/main/modules/aesop#readme
+/auditor        https://github.com/davidsneighbour/hugo-modules/tree/main/modules/auditor#readme
+/debug          https://github.com/davidsneighbour/hugo-modules/tree/main/modules/debug#readme
+/devtools       https://github.com/davidsneighbour/hugo-modules/tree/main/modules/devtools#readme
+/errors         https://github.com/davidsneighbour/hugo-modules/tree/main/modules/errors#readme
+/feeds          https://github.com/davidsneighbour/hugo-modules/tree/main/modules/feeds#readme
+/functions      https://github.com/davidsneighbour/hugo-modules/tree/main/modules/functions#readme
+/giscus         https://github.com/davidsneighbour/hugo-modules/tree/main/modules/giscus#readme
+/head           https://github.com/davidsneighbour/hugo-modules/tree/main/modules/head#readme
+/headerimage    https://github.com/davidsneighbour/hugo-modules/tree/main/modules/headerimage#readme
+/hooks          https://github.com/davidsneighbour/hugo-modules/tree/main/modules/hooks#readme
+/icons          https://github.com/davidsneighbour/hugo-modules/tree/main/modules/icons#readme
+/illiad         https://github.com/davidsneighbour/hugo-modules/tree/main/modules/illiad#readme
+/internals      https://github.com/davidsneighbour/hugo-modules/tree/main/modules/internals#readme
+/modder         https://github.com/davidsneighbour/hugo-modules/tree/main/modules/modder#readme
+/netlification  https://github.com/davidsneighbour/hugo-modules/tree/main/modules/netlification#readme
+/opensearch     https://github.com/davidsneighbour/hugo-modules/tree/main/modules/opensearch#readme
+/pictures       https://github.com/davidsneighbour/hugo-modules/tree/main/modules/pictures#readme
+/publisher      https://github.com/davidsneighbour/hugo-modules/tree/main/modules/publisher#readme
+/pwa            https://github.com/davidsneighbour/hugo-modules/tree/main/modules/pwa#readme
+/renderhooks    https://github.com/davidsneighbour/hugo-modules/tree/main/modules/renderhooks#readme
+/robots         https://github.com/davidsneighbour/hugo-modules/tree/main/modules/robots#readme
+/schema         https://github.com/davidsneighbour/hugo-modules/tree/main/modules/schema#readme
+/security       https://github.com/davidsneighbour/hugo-modules/tree/main/modules/security#readme
+/seo            https://github.com/davidsneighbour/hugo-modules/tree/main/modules/seo#readme
+/shortcodes     https://github.com/davidsneighbour/hugo-modules/tree/main/modules/shortcodes#readme
+/sitemap        https://github.com/davidsneighbour/hugo-modules/tree/main/modules/sitemap#readme
+/social         https://github.com/davidsneighbour/hugo-modules/tree/main/modules/social#readme
+/youtube        https://github.com/davidsneighbour/hugo-modules/tree/main/modules/youtube#readme
 
 # issues
 
