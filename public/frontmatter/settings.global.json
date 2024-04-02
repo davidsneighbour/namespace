@@ -1,0 +1,23 @@
+{
+  "frontMatter.content.autoUpdateDate": true,
+  "frontMatter.framework.id": "hugo",
+  "frontMatter.experimental": true,
+  "frontMatter.dashboard.openOnStart": true,
+  "frontMatter.framework.startCommand": "npm run server",
+  "frontMatter.content.publicFolder": "static",
+  "frontMatter.taxonomy.seoDescriptionLength": 170,
+  "frontMatter.content.supportedFileTypes": [
+    "md"
+  ],
+  "frontMatter.taxonomy.dateFormat": "yyyy-MM-dd'T'HH:mm:ssxxx",
+  "frontMatter.taxonomy.indentArrays": false,
+  "frontMatter.taxonomy.noPropertyValueQuotes": [
+    "date"
+  ],
+  "frontMatter.panel.actions.disabled": [
+    "createContent",
+    "optimizeSlug",
+    "startStopServer"
+  ],
+  "frontMatter.git.enabled": false
+}
