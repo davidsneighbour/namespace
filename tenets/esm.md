@@ -54,7 +54,7 @@ If you use `ts-node`, follow [this guide](https://github.com/TypeStrong/ts-node/
 
 ### How can I import ESM in Electron?
 
-Electron supports ESM as of Electron 28 (not out yet as of this writing). [Please read this.](https://github.com/electron/electron/blob/main/docs/tutorial/esm.md)
+Electron supports ESM as of [Electron 28](https://www.electronjs.org/blog/electron-28-0). [Please read this.](https://github.com/electron/electron/blob/main/docs/tutorial/esm.md)
 
 ### I'm having problems with ESM and Webpack
 
