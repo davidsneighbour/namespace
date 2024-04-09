@@ -11,7 +11,6 @@
     "@davidsneighbour/prettier-config": "^2024.2.4",
     "@davidsneighbour/release-config": "^2024.2.4",
     "@davidsneighbour/remark-config": "^2024.2.4",
-    "@davidsneighbour/textlint-config": "^2024.1.2",
     "@davidsneighbour/tools": "^2024.2.4"
   },
   "homepage": "https://github.com/davidsneighbour/namespace#readme",
