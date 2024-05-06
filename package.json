@@ -9,7 +9,7 @@
     "@davidsneighbour/commitlint-config": "^2024.3.3",
     "@davidsneighbour/markdownlint-config": "^2024.3.3",
     "@davidsneighbour/prettier-config": "^2024.3.3",
-    "@davidsneighbour/release-config": "^2024.3.3",
+    "@davidsneighbour/release-config": "^2024.3.11",
     "@davidsneighbour/remark-config": "^2024.3.11",
     "@davidsneighbour/tools": "^2024.3.3"
   },
