@@ -11,7 +11,7 @@
     "@davidsneighbour/prettier-config": "^2024.3.22",
     "@davidsneighbour/release-config": "^2024.3.22",
     "@davidsneighbour/remark-config": "^2024.3.22",
-    "@davidsneighbour/tools": "^2024.3.22"
+    "@davidsneighbour/tools": "^2024.3.23"
   },
   "homepage": "https://github.com/davidsneighbour/namespace#readme",
   "license": "MIT",
