@@ -35,6 +35,10 @@
 /social         https://kollitsch.dev/gohugo/social
 /youtube        https://kollitsch.dev/gohugo/youtube
 
+# hugo themes
+
+/darksky        https://github.com/davidsneighbour/hugo-darksky/blob/main/documentation/_index.md
+
 # issues
 
 /issue-225    https://github.com/davidsneighbour/hugo-modules/issues/225
