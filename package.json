@@ -7,7 +7,7 @@
   },
   "devDependencies": {
     "@davidsneighbour/commitlint-config": "^2024.4.6",
-    "@davidsneighbour/markdownlint-config": "^2024.4.6",
+    "@davidsneighbour/markdownlint-config": "^2024.4.12",
     "@davidsneighbour/prettier-config": "^2024.4.6",
     "@davidsneighbour/release-config": "^2024.4.6",
     "@davidsneighbour/remark-config": "^2024.4.6",
