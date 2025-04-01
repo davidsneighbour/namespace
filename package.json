@@ -6,7 +6,7 @@
     "url": "https://github.com/davidsneighbour/namespace/issues"
   },
   "devDependencies": {
-    "@davidsneighbour/commitlint-config": "^2025.0.2",
+    "@davidsneighbour/commitlint-config": "^2025.1.1",
     "@davidsneighbour/markdownlint-config": "^2025.0.2",
     "@davidsneighbour/prettier-config": "^2025.0.2",
     "@davidsneighbour/release-config": "^2025.0.2",
