@@ -10,7 +10,7 @@
     "@davidsneighbour/markdownlint-config": "^2025.0.2",
     "@davidsneighbour/prettier-config": "^2025.0.2",
     "@davidsneighbour/release-config": "^2025.0.2",
-    "@davidsneighbour/remark-config": "^2025.0.2",
+    "@davidsneighbour/remark-config": "^2025.1.1",
     "@davidsneighbour/tools": "^2025.0.2"
   },
   "homepage": "https://github.com/davidsneighbour/namespace#readme",
